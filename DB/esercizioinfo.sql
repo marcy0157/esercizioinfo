@@ -7,4 +7,5 @@ CREATE TABLE `articolo` (
   `pubblicato` tinyint(1) DEFAULT 1,
   `genere` enum('natura','sport','tecnologia') DEFAULT NULL,
   `autore` int(11) NOT NULL
+  Non sono stato io;
 )
