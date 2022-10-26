@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../FUNZIONI/.idea/FUNZIONI.iml" filepath="$PROJECT_DIR$/../FUNZIONI/.idea/FUNZIONI.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/esercizioinfo.iml" filepath="$PROJECT_DIR$/.idea/esercizioinfo.iml" />
     </modules>
   </component>
