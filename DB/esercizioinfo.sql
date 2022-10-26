@@ -13,8 +13,10 @@ CREATE TABLE articolo
 
 CREATE TABLE pagina
 (
-    IdArticolo int auto_increment primary key,
+    IdArticolo int auto_increment ,
     IdLink int,
+primary key (IdArticolo,IdLink),
+ FOREIGN KEY (IdArticolo) REFERENCES articolo(IdArticolo),
 
     FOREIGN KEY (IdLink) REFERENCES link(IdLink)
 
