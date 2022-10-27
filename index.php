@@ -3,12 +3,10 @@
 include_once 'config.php';
 
 
-
 $sql = "select matricola,nome,cognome from giornalista order by cognome";
 $dati = estraiDati($datiConnessione, $sql);
 
 ?>
-
 
 
 <!DOCTYPE html>
@@ -26,7 +24,9 @@ $dati = estraiDati($datiConnessione, $sql);
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">HOME</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -38,13 +38,16 @@ $dati = estraiDati($datiConnessione, $sql);
                         <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
                             Dropdown
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
@@ -63,25 +66,20 @@ $dati = estraiDati($datiConnessione, $sql);
     <div class="row">
         <div class="col-2">
         </div>
-<div class="col">
+        <div class="col">
 
-    <?php
+            <?php
 
-    disegnaTabella();
+            disegnaTabella();
 
-    ?>
+            ?>
 
 
-</div>
+        </div>
         <div class="col-2">
         </div>
 
     </div>
-
-
-
-
-
 
 
 </div>
