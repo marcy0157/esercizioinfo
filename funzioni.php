@@ -98,7 +98,7 @@ function estraiDati($datiConnessione, $sql)
 
 }
 
-
+/*
 function disegnaSelect($nomeSelect, $arrayDati)
 {
 
@@ -118,7 +118,7 @@ function disegnaSelect($nomeSelect, $arrayDati)
     return $stringa;
 
 
-}
+}*/
 
 function modificaGiornalista($datiConnessione, $datiModifica)
 {
